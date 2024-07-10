@@ -1,0 +1,87 @@
+.followers-container {
+  margin: 0 auto;
+  width: 80%;
+  max-width: 1200px;
+  padding: 20px;
+}
+
+.followers-heading {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.loading,
+.error {
+  margin: 20px auto;
+  color: #ff0000;
+  text-align: center;
+}
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust this if needed */
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.followers-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  justify-content: center;
+}
+
+.follower-card {
+  background-color: #fff;
+  color: #5e6ab3;
+  border-radius: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.follower-card:hover {
+  transform: translateY(-10px);
+}
+
+.card-content {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.follower-link {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+.avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 16px;
+  border: 2px solid #5e6ab3;
+}
+
+.follower-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.follower-name {
+  font-size: 18px;
+  font-weight: 600;
+  margin-top: 8px;
+}

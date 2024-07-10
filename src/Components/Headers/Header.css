@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: center; /* Center content horizontally */
+  align-items: center;
+  padding: 5px;
+  background-color: #5a8f3c;
+  /* border-radius: 8px; */
+  margin-bottom: 10px;
+  position: relative; /* Allow absolute positioning of the logo */
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #4a4848;
+  position: absolute; /* Position the logo absolutely */
+  left: 20px; /* Adjust the position of the logo */
+}
+
+.search-bar-container {
+  flex: 1;
+  display: flex;
+  justify-content: center; /* Center the search bar */
+}

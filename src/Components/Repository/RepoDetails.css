@@ -1,0 +1,67 @@
+.repo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: 0.3em 0.3em 2em rgba(0, 0, 0, 0.4);
+  padding: 30px;
+  border-radius: 10px;
+  width: 40vw;
+  margin: 50px auto; /* Center the container */
+}
+
+.repo-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%; 
+  gap: 1rem; 
+}
+
+.name {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  text-transform: capitalize;
+  margin: 0.5rem 0; /* Add margin to create gaps */
+}
+
+.verified {
+  display: flex;
+  align-items: center;
+  gap: 0.2rem;
+}
+
+.verifiedText {
+  text-align: center;
+  margin: 0.5rem 0; /* Add margin to create gaps */
+}
+
+.description {
+  text-align: center;
+  margin: 0.5rem 0; /* Add margin to create gaps */
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.date p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.border {
+  width: 100%;
+  border-top: 1px solid black;
+}
+
+.language {
+  background-color: cornflowerblue;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  margin: 0.5rem 0; /* Add margin to create gaps */
+}
